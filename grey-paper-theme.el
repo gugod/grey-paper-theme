@@ -47,5 +47,5 @@
    ))
 
 (provide-theme 'grey-paper)
+(provide 'grey-paper-theme)
 ;;; grey-paper-theme.el ends here
-
