@@ -2,7 +2,8 @@
 
 ;;; Author: Kang-min Liu <gugod@gugod.org>
 ;;; Version: 1.0.0
-
+;;; Keywords: theme, greyscale
+;;; URL: https://github.com/gugod/grey-paper-theme
 ;;; LICENSE: CC0
 ;;;   To the extent possible under law, Kang-min Liu has waived all
 ;;;   copyright and related or neighboring rights to
