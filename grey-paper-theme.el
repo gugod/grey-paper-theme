@@ -14,7 +14,7 @@
 
 ;;; Code:
 (deftheme grey-paper
-  "Grayscale like eink")
+  "A greyscale theme with look-n-feel of eink.")
 
 (let (
       (bg "#d0d1d0")
