@@ -2,6 +2,10 @@
 
 Grey paper theme is a greyscale theme that looks like eink displays.
 
-Screenshot:
+# Screenshots
 
-![](https://gugod.org/2020/04/grey-paper-theme-emacs/screenshot-grey-paper-perlbrew.png)
+![](screenshots/grey-paper-cperl-mode.png)
+
+# Installation
+
+Download `grey-paper-theme.el` and put it under your `custom-theme-directory`.
