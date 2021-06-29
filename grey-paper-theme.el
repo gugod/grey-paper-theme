@@ -28,24 +28,29 @@
 
   (custom-theme-set-faces
    'grey-paper
-   '(default ((t (:background bg :foreground fg))))
-   '(fringe ((t (:background bg :foreground fg))))
-   '(region ((t (:background bg-dark :distant-foreground "ns_selection_fg_color"))))
-   '(link ((t (:foreground fg-alt :underline t))))
+   `(default ((t (:background ,bg :foreground ,fg))))
+   `(fringe ((t (:background ,bg :foreground ,fg))))
+   `(region ((t (:background ,bg-dark :distant-foreground "ns_selection_,fg_color"))))
+   `(link ((t (:foreground ,fg-alt :underline t))))
 
-   '(font-lock-builtin-face ((t (:foreground fg))))
-   '(font-lock-comment-face ((t (:foreground fg-light))))
-   '(font-lock-constant-face ((t (:foreground fg-dark))))
-   '(font-lock-function-name-face ((t (:foreground fg :bold t))))
-   '(font-lock-keyword-face ((t (:foreground fg))))
-   '(font-lock-string-face ((t (:foreground fg))))
-   '(font-lock-type-face ((t (:foreground fg-dark))))
-   '(font-lock-variable-name-face ((t (:foreground fg))))
+   `(font-lock-builtin-face ((t (:foreground ,fg))))
+   `(font-lock-comment-face ((t (:foreground ,fg-light))))
+   `(font-lock-constant-face ((t (:foreground ,fg-dark))))
+   `(font-lock-function-name-face ((t (:foreground ,fg :bold t))))
+   `(font-lock-keyword-face ((t (:foreground ,fg))))
+   `(font-lock-string-face ((t (:foreground ,fg))))
+   `(font-lock-type-face ((t (:foreground ,fg-dark))))
+   `(font-lock-variable-name-face ((t (:foreground ,fg))))
 
-   '(cperl-array-face ((t (:background bg :foreground fg :bold t))))
-   '(cperl-hash-face ((t (:background bg :foreground fg :bold t))))
-   '(cperl-nonoverridable-face ((t (:background bg :foreground fg :bold t))))
+   `(cperl-array-face ((t (:background ,bg :foreground ,fg :bold t))))
+   `(cperl-hash-face ((t (:background ,bg :foreground ,fg :bold t))))
+   `(cperl-nonoverridable-face ((t (:background ,bg :foreground ,fg :bold t))))
    ))
+
+;;;###autoload
+(when (and (boundp 'custom-theme-load-path) load-file-name)
+  (add-to-list 'custom-theme-load-path
+               (file-name-as-directory (file-name-directory load-file-name))))
 
 (provide-theme 'grey-paper)
 (provide 'grey-paper-theme)
