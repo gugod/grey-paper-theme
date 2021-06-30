@@ -1,4 +1,5 @@
-;;; grey-paper-theme.el --- The "Grey paper" theme.
+;;; grey-paper-theme.el --- A greyscale theme with look-n-feel of an eink display.
+;;; -*- lexical-binding: t; -*-
 
 ;;; Author: Kang-min Liu <gugod@gugod.org>
 ;;; Version: 1.0.0
@@ -14,7 +15,7 @@
 
 ;;; Code:
 (deftheme grey-paper
-  "A greyscale theme with look-n-feel of eink.")
+  "A greyscale theme with look-n-feel of an eink display.")
 
 (let (
       (bg "#d0d1d0")
@@ -46,11 +47,6 @@
    `(cperl-hash-face ((t (:background ,bg :foreground ,fg :bold t))))
    `(cperl-nonoverridable-face ((t (:background ,bg :foreground ,fg :bold t))))
    ))
-
-;;;###autoload
-(when (and (boundp 'custom-theme-load-path) load-file-name)
-  (add-to-list 'custom-theme-load-path
-               (file-name-as-directory (file-name-directory load-file-name))))
 
 (provide-theme 'grey-paper)
 (provide 'grey-paper-theme)
