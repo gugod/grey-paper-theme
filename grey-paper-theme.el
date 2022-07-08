@@ -1,5 +1,4 @@
-;;; grey-paper-theme.el --- A greyscale theme with look-n-feel of an eink display
-;;; -*- lexical-binding: t; -*-
+;;; grey-paper-theme.el --- A greyscale theme with look-n-feel of an eink display -*- lexical-binding: t; -*-
 
 ;;; Author: Kang-min Liu <gugod@gugod.org>
 ;;; Version: 1.0.0
