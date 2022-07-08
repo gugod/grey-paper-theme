@@ -45,5 +45,5 @@
    `(cperl-nonoverridable-face ((t (:background ,bg :foreground ,fg :bold t))))))
 
 (provide-theme 'grey-paper)
-(provide 'grey-paper-theme)
+
 ;;; grey-paper-theme.el ends here
