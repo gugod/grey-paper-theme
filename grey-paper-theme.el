@@ -4,6 +4,7 @@
 ;;; Version: 1.0.0
 ;;; Keywords: faces
 ;;; URL: https://github.com/gugod/grey-paper-theme
+;;; Package-Requires: ((emacs "24.1"))
 ;;; LICENSE: CC0
 ;;;   To the extent possible under law, Kang-min Liu has waived all
 ;;;   copyright and related or neighboring rights to
