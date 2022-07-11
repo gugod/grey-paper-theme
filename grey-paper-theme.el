@@ -8,6 +8,7 @@
 ;;;   To the extent possible under law, Kang-min Liu has waived all
 ;;;   copyright and related or neighboring rights to
 ;;;   grey-paper-theme.el. This work is published from: Taiwan.
+;;; SPDX-License-Identifier: CC0-1.0
 
 ;;; Commentary:
 ;;;   Then intention is to make the look-and-feel somewhere similar to eink.
