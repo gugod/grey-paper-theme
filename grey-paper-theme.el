@@ -31,6 +31,7 @@
    `(fringe ((t (:background ,bg :foreground ,fg))))
    `(region ((t (:background ,bg-dark :distant-foreground "ns_selection_,fg_color"))))
    `(link ((t (:foreground ,fg-alt :underline t))))
+   `(error ((t (:foreground ,fg-dark :bold t))))
 
    `(font-lock-builtin-face ((t (:foreground ,fg))))
    `(font-lock-comment-face ((t (:foreground ,fg-light))))
