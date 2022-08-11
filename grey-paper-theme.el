@@ -32,6 +32,20 @@
    `(region ((t (:background ,bg-dark :distant-foreground "ns_selection_,fg_color"))))
    `(link ((t (:foreground ,fg-alt :underline t))))
    `(error ((t (:foreground ,fg-dark :bold t))))
+   `(highlight ((t (:foreground ,fg-alt))))
+
+   `(message-header-name ((t (:foreground ,fg-alt))))
+   `(message-header-cc ((t (:foreground ,fg-light))))
+   `(message-header-to ((t (:foreground ,fg :bold t))))
+   `(message-header-newsgroups ((t (:foreground ,fg :bold t))))
+   `(message-header-subject ((t (:foreground ,fg :bold t))))
+   `(message-header-other ((t (:foreground ,fg-alt))))
+   `(message-header-xheader ((t (:foreground ,fg-alt))))
+
+   `(gnus-header-name ((t (:foreground ,fg))))
+   `(gnus-header-content ((t (:foreground ,fg))))
+   `(gnus-header-from ((t (:foreground ,fg-dark))))
+   `(gnus-header-subject ((t (:foreground ,fg-dark))))
 
    `(font-lock-builtin-face ((t (:foreground ,fg))))
    `(font-lock-comment-face ((t (:foreground ,fg-light))))
