@@ -32,6 +32,7 @@
    `(region ((t (:background ,bg-dark :distant-foreground "ns_selection_,fg_color"))))
    `(link ((t (:foreground ,fg-alt :underline t))))
    `(error ((t (:foreground ,fg-dark :bold t))))
+   `(warning ((t (:foreground ,fg-dark :bold t))))
    `(highlight ((t (:foreground ,fg-alt))))
 
    `(message-header-name ((t (:foreground ,fg-alt))))
